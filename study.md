@@ -117,3 +117,14 @@ frozenset : 내용을 변경할 수 없는 세트
 
 \>> frozenset 안에 frozenset을 중첩해서 넣을 수 있으므로, 세트 안에 세트를 넣고 싶을 때 사용
 
+
+
+# 빠른 입력받는법
+
+```
+import sys
+input = sys.stdin.readline
+```
+
+이 코드르 추가해준다
+
